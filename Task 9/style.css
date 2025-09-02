@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    gap: 2rem;
+}
+
+.box img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.box{
+    position: relative;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 1rem;
+    
+}
+
+h2{
+    position: absolute;
+    bottom:3rem;
+    left: 3rem;
+    font-weight: bold;
+}
+.white{
+    color: white;
+}
+
+.btn{
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
